@@ -34,7 +34,6 @@ header {
 }
 header h1 {
 	display: inline-block;
-	float: left;
 	padding:15px 24px;
 	text-transform: uppercase;
 }
@@ -80,27 +79,88 @@ header ul li a:hover {
 }
 
 #about{
-    background-color: wheat;
+    background-color: #92CEE8;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:10px;
+    padding-left:10px;
+    display:flex;
+    width:100%;
 }
 #experience{
-    background-color: white;
+    background-color:#CBDAEE;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:10px;
+    padding-left:10px;
 }
 #current{
-    background-color: white;
+    background-color: #CBDAEE;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:10px;
+    padding-left:10px;
 }
 #projects{
-    background-color: wheat;
+    background-color: #CBDAEE;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:10px;
+    padding-left:10px;
 }
-#kenalan{
-    background-color: white;
+.kenalan{
+    background-color: #CBDAEE;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+.aboutsection{
+    display:flex;
+    width:100%;
+}
+
+.aboutpic{
+    width: 200px;
+    padding-left:10px;
+    padding-right:10px
+
+}
+.aboutmetext{
+    padding-left:20px;
+    width:100%;
+}
+
+.middle{
+    display:flex;
+    background-color: #CBDAEE;
+}
+
+.left{
+    width:40%;
+    padding-left:20px;
+    padding-right:20px;
+    background-color: #CBDAEE;
+}
+.right{
+    width:40;
+    padding-left:40px;
+    padding-right:20px;
+    background-color: #CBDAEE;
+}
+.currenttitle{
+    text-align: left;
+}
+
+footer{
+     background-color: white;
+}
+.webdev{
+    text-align: left;
+}
+
+.projection{
+    padding-left:40px;
+    padding-right:20px
 }

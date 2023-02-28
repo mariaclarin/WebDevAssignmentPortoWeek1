@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-      <ul><!-- sidebar -->
+  
+      <ul>
         <div class="sidebar">
           <ul>
             <li class="nav-list"><a href="#about">About</a></li>
@@ -21,72 +21,85 @@
 			<div class="container">
         <h1>Maria Clarin</h1>
 				<ul>
-          <li class="nav-list"><a href="#about">About</a></li>
-          <li class="nav-list"><a href="#experience">Programming Experience</a></li>
-          <li class="nav-list"><a href="#projects">Past Projects</a></li>
-          <li class="nav-list"><a href="#current">Current Project</a></li>
+          <li class="navlist"><a href="#about">About</a></li>
+          <li class="navlist"><a href="#experience">Programming Experience</a></li>
+          <li class="navlist"><a href="#projects">Past Projects</a></li>
+          <li class="navlist"><a href="#current">Current Project</a></li>
 				</ul>
 
-				<!-- menu mobile -->
-				<label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
 			</div>
 		</header>
   </header>
 
   <main>
     <section id="about">
-      <h2>About Me</h2>
-      <p>Hello there! My name is Maria Clarin. I am a second year computer science student in Binus International University. This is an assignment for my current Web Development course, in which i have to introduce myself and my skills.</p>
+      <div class="aboutsection">
+        <img class="aboutpic" src="love.jpg">
+          <div class="aboutmetext">
+            <h2 class="titles">About Me</h2>
+            <p>Hello there! My name is Maria Clarin. I am a second year computer science student in Binus International University. This is an assignment for my current Web Development course, in which i have to introduce myself and my skills.</p>
+            <button id="btnRed">Change Font Color</button>
+            <button id="btnR">Reset</button>
+          </div>
+      </div>
     </section>
 
-    <section id="experience">
-        <h2>Programming Experience</h2>
-        <ul>
-            <li>Python</li>
-            <li>Java</li>
-            <li>Html</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>C++</li>
-            <li>GitHub</li>
-            <li>MySQL</li>
-        </ul>
-    </section>
+    <div class="middle">
+      <div class="right">
+        <section id="experience">
+          <h2>Programming Experience</h2>
+          <ul>
+              <li>Python</li>
+              <li>Java</li>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>C++</li>
+              <li>GitHub</li>
+              <li>MySQL</li>
+          </ul>
+        </section>
+      </div>
+      <div class="right">
+        <section id="current">
+          <h2 class="currenttitle">Current Project</h2>
+          <h3 class="webdev">Web Development Final Project</h3>
+          <h>Members :</h>
+          <ul>
+            <li>Alysha Puti Maulidina (2502005906) L4BC</li>
+            <li>Kimberly Mazel (2502022250) L4BC</li>
+            <li>Maria Clarin (2501990331) L4AC</li>
+          </ul>
+          <h>Concept : Education Platform Web Application</h>
+          <ul>
+            <li>It is a educational platform for e-learning services </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
 
     <section id="projects">
       <h2>Past Projects</h2>
-        <h4>Chef's Apron</h4>
+      <div class="projection">
+        <h3 class="webdev">1. Chef's Apron</h3>
         <ul>
            <li>A meal kit delivery application written with HTML, CSS, JavaScript and powered by GitHub.</li> 
         </ul>
-        <h4>BookStack</h4>
+        <h3 class="webdev">2. BookStack</h3>
         <ul>
            <li>A library management applicaation made with python and MySQL.</li> 
         </ul>
-        <h4>Quizzen</h4>
+        <h3 class="webdev">3. Quizzen</h3>
         <ul>
            <li>A student quiz application written in Java connected with MySQL.</li> 
         </ul>
+      </div>
     </section>
 
-    <section id="current">
-      <h2>Current Project</h2>
-      <h4>Web Development Final Project</h4>
-      <h5>Members :</h5>
-      <ul>
-        <li>Alysha Puti Maulidina (2502005906) L4BC</li>
-        <li>Kimberly Mazel (2502022250) L4BC</li>
-        <li>Maria Clarin (2501990331) L4AC</li>
-      </ul>
-      <h5>Concept : Education Platform Web Application</h5>
-      <ul>
-        <li>It is a educational platform for e-learning services </li>
-      </ul>
-    </section>
-
+   
     <div class="kenalan">
-        <h2>I'd like to get to know you!</h2>
-    </div>
+      <h2>I'd like to get to know you!</h2>
       <form>
         <label for="name">Name :</label>
         <input type="text" id="name" name="name" required>
@@ -100,8 +113,9 @@
     </div>
   </main>
 
+
   <footer>
-    <p>Maria Clarin slayed</p>
+    <p>maria.clarin@binus.ac.id</p>
   </footer>
 
   <script src="script.js"></script>

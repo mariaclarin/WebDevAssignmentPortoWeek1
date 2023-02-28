@@ -31,6 +31,77 @@ h4{
     padding-right: 10px;
 }
 header {
-background-color : white;
+	height:70px;
+}
+header h1 {
+	display: inline-block;
+	float: left;
+	padding:15px 24px;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: .3s;
+}
+header h1 a:hover {
+	color: #F84744;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: .3s;
+}
+header ul li a:hover {
+	color: #F84744;
+}
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: -300px;
+	width:300px;
+	background-color: rgba(16, 47, 80, .9);
+	transition: .3s;
+	z-index: 9999;
+}
+.sidebar ul li a {
+	color: #fff;
+}
+.sidebar ul li {
+	padding:24px;
+	transition: .3s;
+	transition-property: background-color;
+}
+.sidebar ul li:hover {
+	background-color: #F84744;
+}
 
+#about{
+    background-color: wheat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#experience{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#current{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#projects{
+    background-color: wheat;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#kenalan{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
